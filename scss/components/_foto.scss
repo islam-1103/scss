@@ -1,0 +1,65 @@
+.foto {
+  background: url("../../img/background2.png") center no-repeat;
+  background: cover;
+  padding: 120px 0;
+
+  &__content {
+    width: 450px;
+  }
+
+  &__subtitle {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #d77474;
+  }
+  &__title {
+    margin: 10px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    color: #000000;
+  }
+  &__desc {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #6c6c6c;
+
+    a {
+      font-family: "Libre Franklin", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      color: #d23e3e;
+    }
+  }
+
+  &__button {
+    margin-top: 30px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-align: left;
+    background-color: #ac1313;
+    color: #fff;
+    padding: 16px;
+
+    &:hover {
+      cursor: pointer;
+      color: #ac1313;
+      background-color: #fff;
+    }
+  }
+}
