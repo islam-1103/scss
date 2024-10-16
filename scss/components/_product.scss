@@ -1,4 +1,23 @@
 .product {
+  &__pop {
+    padding: 120px 0;
+    position: relative;
+  }
+
+  &__left {
+    position: absolute;
+    display: inline-block;
+    transform: rotate(270deg);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1px;
+    top: 42%;
+    left: -14%;
+    color: #dbdbdb;
+  }
+
   &__subtitle {
     font-family: "Poppins", sans-serif;
     font-size: 14px;
@@ -14,9 +33,6 @@
     font-weight: 700;
     line-height: 50px;
     text-align: center;
-  }
-  &__pop {
-    padding: 120px 0;
   }
   &__content {
     padding: 60px 0;
@@ -40,7 +56,7 @@
       color: #000000;
     }
     p {
-        margin-top: 22px;
+      margin-top: 22px;
       font-family: "Libre Franklin", sans-serif;
       font-size: 14px;
       font-weight: 400;

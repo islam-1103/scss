@@ -40,19 +40,19 @@
   &__button {
     margin-top: 50px;
     border: none;
-    font-family: 'Poppins', sans-serif;
-    background-color:#AC1313;
+    font-family: "Poppins", sans-serif;
+    background-color: #ac1313;
     padding: 10px 20px;
     font-size: 12px;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 1px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     &:hover {
-        cursor: pointer;
-        color: #AC1313;
-        background-color: #FFFFFF;
+      cursor: pointer;
+      color: #ac1313;
+      background-color: #ffffff;
     }
   }
 }

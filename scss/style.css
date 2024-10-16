@@ -152,6 +152,11 @@ a {
   font-weight: 400;
   line-height: 40px;
 }
+.header__line {
+  color: #000;
+  height: 30px;
+  margin: 0 10px;
+}
 .header__items {
   display: flex;
   margin-left: 500px;
@@ -164,8 +169,16 @@ a {
   color: #ac1313;
 }
 .header__foto {
-  margin-left: 20px;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 10px;
   color: #000;
+}
+.header__foto img {
+  margin-right: 7px;
 }
 
 .section {
@@ -205,20 +218,37 @@ a {
   margin-top: 50px;
   border: none;
   font-family: "Poppins", sans-serif;
-  background-color: #AC1313;
+  background-color: #ac1313;
   padding: 10px 20px;
   font-size: 12px;
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 1px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .section__button:hover {
   cursor: pointer;
-  color: #AC1313;
-  background-color: #FFFFFF;
+  color: #ac1313;
+  background-color: #ffffff;
 }
 
+.product__pop {
+  padding: 120px 0;
+  position: relative;
+}
+.product__left {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(270deg);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
+  top: 42%;
+  left: -14%;
+  color: #dbdbdb;
+}
 .product__subtitle {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -234,9 +264,6 @@ a {
   font-weight: 700;
   line-height: 50px;
   text-align: center;
-}
-.product__pop {
-  padding: 120px 0;
 }
 .product__content {
   padding: 60px 0;
@@ -273,6 +300,20 @@ a {
 .dish__top {
   display: flex;
   gap: 100px;
+  position: relative;
+}
+.dish__right {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(270deg);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
+  top: 85%;
+  right: -14%;
+  color: #dbdbdb;
 }
 .dish__image {
   width: 100%;
@@ -332,6 +373,20 @@ a {
 .collection__foto {
   display: flex;
   gap: 20px;
+  position: relative;
+}
+.collection__left {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(270deg);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
+  top: 95%;
+  left: -14%;
+  color: #dbdbdb;
 }
 .collection__top {
   margin-top: 60px;
@@ -438,6 +493,22 @@ a {
 .news {
   padding: 120px 0;
 }
+.news__content {
+  position: relative;
+}
+.news__right {
+  position: absolute;
+  display: inline-block;
+  transform: rotate(270deg);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
+  top: 55%;
+  right: -5%;
+  color: #dbdbdb;
+}
 .news__telegram {
   display: flex;
   justify-content: center;
@@ -484,6 +555,7 @@ a {
   margin-top: 40px;
   display: flex;
   gap: 10px;
+  align-items: center;
   justify-content: center;
 }
 .news__line {
