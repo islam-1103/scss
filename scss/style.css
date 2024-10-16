@@ -394,6 +394,9 @@ a {
 .collection__image {
   max-width: 100%;
 }
+.collection__item {
+  margin: 15px 0;
+}
 .collection__item h4 {
   margin-top: 15px;
   font-family: "Libre Franklin", sans-serif;
