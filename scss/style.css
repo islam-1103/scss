@@ -169,8 +169,8 @@ a {
 }
 
 .section {
-  background: url("../img/background.png") center no-repeat;
-  background: cover;
+  background: url("../img/backgrond.png") center no-repeat;
+  background-size: cover;
 }
 .section__disp {
   padding: 95px 100px;
