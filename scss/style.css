@@ -362,7 +362,7 @@ a {
   color: #d77474;
 }
 .collection__title {
-  margin-top: 20px;
+  margin: 20px 0 60px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -389,7 +389,7 @@ a {
   color: #dbdbdb;
 }
 .collection__top {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .collection__image {
   max-width: 100%;
